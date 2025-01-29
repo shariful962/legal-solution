@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind CSS </title>
+     <!-- customize css  -->
+    <link rel="stylesheet" href="css/style.css">
+     <!-- fontawesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <!-- tailwind cdn  -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisyUi cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+     <!-- custom style  -->
+    <style type="text/tailwindcss">
+        @theme {
+            /* color  */
+        --color-dark2: #414040;
+        --color-dark3: #707070;
+        --color-dark4: #A0A0A0;
+        --color-dark5: #CFCFCF;
+        --color-dark6: #E7E7E7;
+        --color-dark7: #F3F3F3 ;
+        --color-main: #B68C5A;
+        --color-white: #FFFFFF;
+                 /* font  */
+        --font-poppins: Poppins, serif;
+        --font-EB: EB Garamond, serif;
+        
+      }
+    </style>
+</head>
+
+<body class="font-poppins">
+    <header class="container md:container mx-auto">
+        <!-- navbar design  -->
+        <nav>
+            <div class="navbar bg-base-100 flex items-center justify-between">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars text-lg"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a class="text-base text-[#707070] font-normal">Home</a></li>
+                            <li><a class="text-base text-[#707070] font-normal">Services</a></li>
+                            <li><a class="text-base text-[#707070] font-normal">Cases</a></li>
+                            <li><a class="text-base text-[#707070] font-normal">Blog</a></li>
+                            <li><a class="text-base text-[#707070] font-normal">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <a class="cursor-pointer">
+                        <img src="images/logo2.png" alt="">
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-base font-normal text-[#707070]">Home</a></li>
+                        <li><a class="text-base font-normal text-[#707070]">Services</a></li>
+                        <li><a class="text-base font-normal text-[#707070]">Cases</a></li>
+                        <li><a class="text-base font-normal text-[#707070]">Blog</a></li>
+                        <li><a class="text-base font-normal text-[#707070]">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="cursor-pointer text-lg bg-[#B68C5A] text-white font-semibold py-2 px-5 rounded-lg">
+                        Free Consultation
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <section class="banner py-24 rounded-lg mt-6">
+            <div class="banner-content flex justify-center items-center">
+                <div class="text-center">
+                    <h1 class="text-white text-7xl leading-[85px]  font-bold font-EB">
+                        We Provide Effective <br>Legal Solutions
+                    </h1>
+                    <p class="text-[#E7E7E7] text-base font-normar mt-6">
+                        There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.
+                    </p>
+                    <div>
+                        <form action="" class="mt-8">
+                            <input class="bg-white py-2 px-5 rounded-lg mr-3 w-1/2" type="search" name="" id="" placeholder="Search your services">
+                            <button class="cursor-pointer text-lg bg-[#B68C5A] text-white font-semibold py-2 px-5 rounded-lg">
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+
+</html>
