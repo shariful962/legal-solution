@@ -4,3 +4,13 @@
     background-size: cover;
     background-position: cover;
 }
+.title {
+    font-family: "EB Garamond", serif;
+}
+
+/* area  */
+.area .area-box .card {
+    background: linear-gradient(180.00deg, rgb(243, 243, 243),rgba(243, 243, 243, 0) 100%);
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 0;
+}
